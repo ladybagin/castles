@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 200px;
+            width: 200px;
+
+        }
+    </style>
+</head>
+<body>
+    <div style="display:flex;  ">
+       
+        <p style="display: flex; flex-direction: column; margin:10px; "> <img onclick="big1()" src="red.jpg"><span style="text-align: center;
+            margin: 10px; font-size: 16pt;">Костел</span></p>
+       
+       <p style="display: flex; flex-direction: column; margin:10px;"> <img onclick="big3()" src="troi.jpg"><span style="text-align: center;
+        margin: 10px; font-size: 16pt;">Троицкое</span></p>
+
+<p style="display: flex; flex-direction: column; margin:10px; "> <img onclick="big5()" src="mir.jpg"><span style="text-align: center;
+    margin: 10px; font-size: 16pt;">Мир</span></p>
+    </div>
+<div id="id1"></div>
+    <script>
+        function big1() {
+id1.innerHTML=`  <p style="display: flex; flex-direction: column; margin-left: 500px; "> <img style="
+width: 400px; height: 400px;
+"onclick="big2()" src="red.jpg"><span style="text-align: center;
+            margin-top:10px; margin-right: 400px; font-size: 18pt;">Красный костел
+https://msj.by/katolicheskie-xramy/krasnyj-kostel-v-minske/ 
+В храме святого Симеона и святой Елены находится полномасштабная копия Туринской Плащаницы.
+</span></p>`;
+        }
+        function big2() {
+            id1.innerHTML=``;
+        }
+
+
+        function big3() {
+id1.innerHTML=`  <p style="display: flex; flex-direction: column; margin-left: 500px; "> <img style="
+width: 400px; height: 400px;
+"onclick="big4()" src="troi.jpg"><span style="text-align: center;
+            margin-top:10px; margin-right: 400px; font-size: 18pt;">Троицкое предместье — исторический район города Минска, расположенный в северо-восточной части исторического центра на левом берегу реки Свислочь.
+            
+           
+
+</span></p>`;
+        }
+        function big4() {
+            id1.innerHTML=``;
+        }
+
+
+        function big5() {
+id1.innerHTML=`  <p style="display: flex; flex-direction: column; margin-left: 500px; "> <img style="
+width: 400px; height: 400px;
+"onclick="big6()" src="mir.jpg"><span style="text-align: center;
+            margin-top:10px; margin-right: 400px; font-size: 18pt;">Мирский замок
+https://mirzamak.by/
+Построенный в начале XVI в. магнатом Ю. И. Ильиничем замок стал первым частнособственническим замком на землях Белоруссии
+
+
+
+</span></p>`;
+        }
+        function big6() {
+            id1.innerHTML=``;
+        }
+    </script>
+</body>
+</html>
